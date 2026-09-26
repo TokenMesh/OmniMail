@@ -5,6 +5,15 @@
   "compatibility_date": "2026-07-27",
   "compatibility_flags": ["nodejs_compat"],
   "keep_vars": true,
+  "vars": {
+    "SUPER_ADMIN_EMAIL": "liyangyang0528@gmail.com"
+  },
+  "routes": [
+    {
+      "pattern": "omnimail.tokenmesh.tech",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
